@@ -172,20 +172,6 @@ Access the admin interface at `http://localhost:3000/_workbench` to:
 - **Storage Utilization**: R2 bucket usage and costs
 - **Error Rates**: Failed operations and their causes
 
-## 🏪 Storage Structure
-
-Images are organized in Cloudflare R2 with the following structure:
-
-your-bucket/
-├── originals/
-│   └── filename_uuid.ext          # Original uploaded images
-├── desktop/
-│   └── filename_uuid-desktop.ext  # 1920px desktop versions
-├── mobile/
-│   └── filename_uuid-mobile.ext   # 720px mobile versions
-└── lowquality/
-    └── filename_uuid-lowquality.ext # 480px preview versions
-
 ## 🎯 Key Benefits
 
 ### Why Motia?
